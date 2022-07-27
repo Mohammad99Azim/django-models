@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<h1>snack detail</h1>
+
+<h3>Name: {{snack_detail.name}}</h3>
+
+<h3>Purchaser: {{snack_detail.purchaser}}</h3>
+
+<h3>Description: {{snack_detail.description}}</h3>
+
+    <button onclick="window.location.href='/';">
+        Back To Home
+    </button>
+{% endblock content %}
